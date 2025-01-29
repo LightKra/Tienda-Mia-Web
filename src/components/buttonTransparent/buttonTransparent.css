@@ -1,0 +1,20 @@
+.button-transparent{
+    display: flex;
+    gap: 7px;
+    padding: 15px;
+    width: 210px;
+    border: 1px solid var(--text-color-dark-light);
+    border-radius: 4px;
+    background-color: white;
+    color: var(--text-color-dark-light);
+    cursor: pointer;
+    transition: .3s all ease;
+}
+.button-transparent:hover{
+    background-color: rgb(210, 209, 209);
+}
+.button-transparent-image{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}

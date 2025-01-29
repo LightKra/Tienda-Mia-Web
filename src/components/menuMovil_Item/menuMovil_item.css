@@ -1,0 +1,61 @@
+
+.menu-movil-item{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 10px 5px 13px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color-dark);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.menu-movil-item-active{
+    background-color: rgb(239, 238, 238);
+}
+.menu-movil-item-text{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-movil-item-title{
+    margin: 0px;
+    font-size: 18px;
+}
+.menu-movil-item-icon{
+    font-size: 25px;
+    transition: all 0.3s ease;
+}
+.menu-movil-item-icon-active{
+    transform: rotate(-0.5turn);
+}
+.menu-movil-item-list{
+    width: 332px;
+    max-height: 0px;
+    overflow: hidden;
+    padding-left: 30px;
+    transition: all 0.3s ease;
+}
+.menu-movil-item-list-active{
+    max-height: 500px;
+    overflow: visible;
+    transition: all 0.3s ease;
+}
+.menu-movil-item-list-item-title{
+    margin-top: 15px;
+}
+.menu-movil-item-list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color-dark);
+}
+/*Iconos*/
+.menu-movil-item-list-item-icon{
+    font-size: 23px;
+}
+.menu-movil-item-text-icon{
+    font-size: 21px;
+}
