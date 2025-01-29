@@ -1,0 +1,26 @@
+:root{
+    --primary-color: #FF3334;
+    --secondary-color: #FFBE25;
+    --text-color: white;
+    --text-color-section: #1D53CC ;
+    --text-color-dark: #2D292D;
+    --text-color-dark-light: #5F6367;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 70%;
+    min-width: 1200px;
+    margin: 0px auto;
+}
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 97%;
+        min-width: 97%;
+    }
+}

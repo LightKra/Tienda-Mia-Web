@@ -1,0 +1,13 @@
+.button-red{
+    background-color: var(--primary-color);
+    width: 200px;
+    padding: 13px 10px;
+    border: none;
+    border-radius: 3px;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button-red:hover{
+    background-color: #bf1919;
+}
