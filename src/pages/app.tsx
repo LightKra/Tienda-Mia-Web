@@ -1,12 +1,14 @@
 import React from 'react';
-import {Navbar} from '../components/navbar/navbar'
-import { RoutesApp } from '../routes/routes';
+import { Header } from '../components/header/header';
+import { Footer } from '../components/footer/footer';
+import { Main } from '../components/main/main';
 
 export const App: React.FC = ()=>{
     return(
         <>  
-            <Navbar/>
-            <RoutesApp/>
+            <Header/>
+            <Main/>
+            <Footer/>
         </>
     )
 }

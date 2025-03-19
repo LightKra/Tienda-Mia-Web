@@ -2,9 +2,12 @@
 .sub-menu-no-account-container{
     position: absolute;
     left: -123px;
-    z-index: 50;
 }
 .sub-menu-no-account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
     width: 250px;
     padding: 14px;
     border-radius: 5px;
@@ -20,12 +23,7 @@
     border-bottom: 10px solid white;
 }
 /*contenido*/
-.sub-menu-no-account{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
+
 .sub-menu-no-account-info{
     display: flex;
     align-items: center;
@@ -40,4 +38,7 @@
     width: 990px;
     font-size: 15px;
     color: var(--text-color-dark-light);
+}
+@media screen and (max-width: 730px){
+  
 }

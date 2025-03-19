@@ -1,0 +1,14 @@
+.card-product-v3{
+    padding: 20px;
+    margin: 0px auto;
+    text-align: center;
+}
+.card-product-v3 > img{
+    width: 100%;
+}
+.card-product-v3 > p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}

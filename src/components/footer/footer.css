@@ -1,0 +1,102 @@
+.footer-background{
+    margin-top: 60px;
+    padding: 0.1px;
+    background-color: var(--white-100);
+}
+.footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.footer-brands-title{
+    text-align: center;
+}
+.footer-card{
+    display: flex;
+    align-items: end;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 25px;;
+    border-radius: 10px;
+    background-color: var(--white-300);
+}
+.footer-card-email{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.footer-card-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.footer-more-information{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-more-information > div{
+    color: var(--text-color-dark-light);
+    font-size: 0.8rem;
+    width: 200px;
+}
+.footer-more-information-title{
+    font-weight: 600;
+}
+.footer-more-information-list{
+    list-style: none;
+    padding: 0px;
+}
+.footer-more-information-list > li{
+    margin-bottom: 8px;
+}
+.footer-more-information-list-cursor > li{
+    cursor: pointer;
+}
+.footer-more-information-list-cursor > li:hover{
+    text-decoration: underline;
+}
+.footer-more-information-list > li > svg{
+    color: var(--green-200);
+}
+.footer-more-information-list-schedule-title{
+    margin-bottom: 0px;
+}
+.footer-more-information-list-schedule{
+    margin-top: 5px;
+    font-size: 0.75rem;
+}
+.footer-more-information-list-text-light{
+    color: var(--white-400);
+}
+.footer-more-information-tree-view{
+    display: none;
+}
+.footer-more-information-tree-view > .footer-tree-view:nth-child(2) > ul > li:nth-child(1n+5){
+    color: var(--white-400);
+}
+.footer-more-information-tree-view > .footer-tree-view:nth-child(3) > ul > li{
+    color: var(--white-400);
+}
+.footer-more-information-tree-view  > .footer-tree-view:nth-child(3) > ul > li > svg{
+    color: var(--green-200);
+}
+
+.footer-lower{
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--white-300);
+}
+.footer-lower p{
+    margin: 0px;
+    font-size: .75rem;
+    color: var(--text-color-dark-light);
+}
+@media screen and (max-width: 767px){
+    .footer-more-information{
+        display: none;
+    }
+    .footer-more-information-tree-view{
+        display: block;
+    }
+}

@@ -1,0 +1,27 @@
+.sub-item-categories{
+    display: none;
+    position: absolute;
+    top: -40px;
+    left: 250px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 0px 10px var(--box-shadow-color);
+    background-color: var(--background-color-light);
+    cursor: default;
+}
+.sub-item-categories-active {
+    display: block;
+}
+.sub-item-categories-list{
+    display: flex;
+    justify-content: space-between;
+}
+.sub-item-categories-title{
+    font-size: 1rem;
+    margin-top: 0px;
+}
+.sub-item-categories > hr {
+    border: none;
+    border: 1px solid var(--primary-color);
+}

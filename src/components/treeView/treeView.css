@@ -1,0 +1,34 @@
+.tree-view{
+    padding: 0px 10px;
+    width: var(--width-tree-view);
+}
+
+.tree-view-medium{
+    --width-tree-view: 300px;
+}
+.tree-view-full{
+    --width-tree-view: 100%;
+}
+
+.tree-view-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.tree-view-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 0px;
+    margin: 0px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all .3s ease;
+    font-size: 0.8rem;
+}
+
+.tree-view-body-active{
+    max-height: 400px;
+}

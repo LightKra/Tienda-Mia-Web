@@ -1,0 +1,24 @@
+.input{
+    height: var(--input-height);
+    width: var(--input-width);
+    padding: 0px 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: var(--input-font-size);
+}
+
+.input-medium{
+    --input-height: 45px;
+    --input-width: 350px;
+    --input-font-size: 1rem;
+}
+
+.input-full{
+    --input-width: 100%;
+    --input-height: 45px;
+    --input-font-size: 1rem;
+}h
+
+.input:focus{
+    outline: 1px solid var(--white-400);
+}

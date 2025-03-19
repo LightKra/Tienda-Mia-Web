@@ -1,5 +1,31 @@
+.navbar-lower{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+}
+.navbar-lower-categories{
+    position: relative;
+    font-weight: 700;
+    cursor: default;
+}
+.navbar-lower-item-container{
+    height: 100%;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .3s ease;
+}
+.navbar-lower-item-container:hover{
+    background-color: var(--primary-color-light);
+}
+.navbar-lower-link{
+    text-decoration: none;
+    color: var(--text-color);
+}
 .navbar-background{
-    padding: 10px 0px;
+    padding-top: 10px;
     background-color: var(--primary-color);
     color: var(--text-color);
 }
@@ -11,7 +37,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 .navbar-list2{
     display: flex;
@@ -28,7 +54,6 @@
 }
 .navbar-list2-item-link-user{
     display: flex;
-    width: 90px;
     justify-content: space-between;
     align-items: center;
     color: var(--text-color);
@@ -36,10 +61,13 @@
 }
 .navbar-list2-item-link-user-container{
     position: relative;
+    width: 100px;
     height: 22px;
     overflow: hidden;
 }
 .navbar-list2-item-link-user-submenu{
+    position: relative;
+    z-index: 50;
     opacity: 0;
     transition: all 0.3s ease;
 }
@@ -84,6 +112,12 @@
 .navbar-list2-item-link-container-movil{
     display: none;
 }
+.navbar-lower-sub-menu-categories{
+    display: none;
+}
+.navbar-lower-categories:hover .navbar-lower-sub-menu-categories{
+    display: block;
+}
 /*Filtro oscurecer fondo*/
 .navbar-dark-filter{
     display: none;
@@ -109,6 +143,9 @@
     .navbar-list2{
         display: none;
     }
+    .navbar-lower{
+        display: none;
+    }
     .navbar{
         flex-wrap: wrap;
         gap: 5px;
@@ -130,5 +167,9 @@
     }
     .navbar-auth-active{
         display: none;
+    }
+    .navbar-background{
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }

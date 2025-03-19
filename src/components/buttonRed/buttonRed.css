@@ -1,13 +1,38 @@
-.button-red{
-    background-color: var(--primary-color);
-    width: 200px;
-    padding: 13px 10px;
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--button-background-color);
+    width: var(--button-width);
+    height: var(--button-height);
+    padding: var(--button-padding);
     border: none;
     border-radius: 3px;
     color: var(--text-color);
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.button-red:hover{
-    background-color: #bf1919;
+.button:hover{
+    background-color: var(--button-background-color-hover);
+}
+.button-icon{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    font-size: 20px;
+}
+.button > p{
+    margin: 0px;
+}
+.button-medium{
+    --button-width: 220px;
+    --button-height: auto;
+    --button-padding: 13px 10px;
+}
+.button-red{
+    --button-background-color: var(--primary-color);
+}
+.button-red-hover{
+    --button-background-color-hover: var(--red-200);
 }

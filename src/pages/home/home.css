@@ -1,0 +1,17 @@
+.main-home-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home-swiper-container{
+    margin-top: 25px;
+}
+.home-offers-image{
+    width: 100%;
+    border-radius: 10px;
+}
+.home-title{
+    font-weight: 100;
+    color: var(--text-color-dark);
+}

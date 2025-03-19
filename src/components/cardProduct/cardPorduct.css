@@ -1,0 +1,40 @@
+
+.card-product > img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.card-product > hr {
+    border-top: 1px solid var(--gray-100);
+    border-bottom: none;
+}
+.card-product-body{
+    margin-top: 16px;
+    padding: 0px 10px;
+}
+.card-product-body p{
+    margin: 10px 0px;
+}
+.card-product-body-title{
+    font-weight: 100;
+
+}
+.card-product-body-price{
+    color: var(--text-color-dark-light);
+    text-decoration:line-through;
+}
+.card-product-body-price-discounted{
+    color: var(--text-color-dark-light);
+    font-size: 0.9rem;
+}
+.card-product-body-price-discounted span:nth-child(0n+1){
+    font-size: 1.5rem;
+    color: var(--text-color-dark);
+}
+.card-product-body-price-discounted span:nth-child(0n+2){
+    color: var(--green-100);
+}
+.card-product-body-bank{
+    font-size: 0.9rem;
+    color: var(--green-100);
+}

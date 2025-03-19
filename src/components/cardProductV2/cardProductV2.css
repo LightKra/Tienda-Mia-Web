@@ -1,0 +1,27 @@
+.card-product-v2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100%;
+}
+.card-product-v2 > div{
+    width: 55%;
+}
+.card-product-v2 > div > img{
+    padding-top: 10px;
+    width: 100%;
+}
+.card-product-v2-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-product-v2-title > p:nth-child(1){
+    margin: 0px;
+    font-size: 0.8rem;
+}
+.card-product-v2-title >p:nth-child(2){
+    margin: 10px 0px 0px 0px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

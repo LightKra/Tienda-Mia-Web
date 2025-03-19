@@ -1,7 +1,23 @@
 :root{
     --primary-color: #FF3334;
+    --primary-color-light: #F55856;
     --secondary-color: #FFBE25;
+    --red-200: #bf1919;
+    --white-100: #FFFFFF;
+    --white-300: #EBEDED;
+    --white-400: #A2A2A2;
+    --green-50: #E7FEF6;
+    --green-100: #57A98E;
+    --green-200: #08875B;
+    --green-400: #006643;
+    --gray-100: #ccc;
+    --gray-300: #949494;
+    --gray-500: #2D292D;
+    --swiper-arrow-color: #CCCCCC;
     --text-color: white;
+    --background-color-light: white;
+    --background-color-dark-light: rgb(206, 206, 206);
+    --box-shadow-color: rgb(96, 96, 96);
     --text-color-section: #1D53CC ;
     --text-color-dark: #2D292D;
     --text-color-dark-light: #5F6367;
@@ -12,15 +28,39 @@
 
 body{
     font-family: sans-serif;
+    background-color: var(--white-300);
+    color: var(--text-color-dark);
 }
 .container{
     width: 70%;
     min-width: 1200px;
     margin: 0px auto;
 }
+.swiper-button-prev, .swiper-button-next{
+    background-color: white;
+    color: var(--swiper-arrow-color);
+    border-radius: 50%;
+    padding: 25px;
+    box-shadow: 0px 0px 5px var(--box-shadow-color);
+}
+.swiper-button-prev::after, .swiper-button-next::after{
+    font-size: 25px;
+    font-weight: bold;
+}
 @media screen and (max-width: 1200px) {
     .container{
         width: 97%;
         min-width: 97%;
+    }
+}
+@media screen and (max-width: 500px){
+    .swiper-button-prev, .swiper-button-next{
+       width: 20px;
+       height: 20px;
+       padding: 20px;
+    }
+    .swiper-button-prev::after, .swiper-button-next::after{
+        font-size: 15px;
+        font-weight: bold;
     }
 }

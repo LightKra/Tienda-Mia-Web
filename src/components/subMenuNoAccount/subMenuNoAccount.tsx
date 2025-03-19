@@ -13,7 +13,7 @@ export const SubMenuNoAccount = ()=>{
     const handlerClickGoogle = ()=>{
         console.log("google");
     }
-    const handlerClickButton = ()=>{
+    const handleClickLogIn = ()=>{
 
     }
     
@@ -21,15 +21,15 @@ export const SubMenuNoAccount = ()=>{
         <div className='sub-menu-no-account-container'>
             <div className='sub-menu-no-account-container-triangle'></div>
             <div className='sub-menu-no-account'>
-                <ButtonTransparent handlerClick={handlerClickFacebook} textButton='Ingresar con facebook' image={facebooIcon}/>
-                <ButtonTransparent handlerClick={handlerClickGoogle} textButton='Ingresar con google' image={googleIcon}/>
+                <ButtonTransparent onClick={handlerClickFacebook} textButton='Ingresar con facebook' image={facebooIcon}/>
+                <ButtonTransparent onClick={handlerClickGoogle} textButton='Ingresar con google' image={googleIcon}/>
                 <div className='sub-menu-no-account-info'>
                     <div className='sub-menu-no-account-line'></div>
-                    <p className='sub-menu-no-account-info-title'>o ingresa con tu email</p>
+                    <p className='sub-menu-no-account-info-title'>o ingresa con email</p>
                     <div className='sub-menu-no-account-line'></div>
                 </div>
                 <Link to='/auth'>
-                    <ButtonRed textButton='Ingresar' handlerClick={handlerClickButton}/>
+                    <ButtonRed textButton='Ingresar' onClick={handleClickLogIn}/>
                 </Link>
             </div>
         </div>

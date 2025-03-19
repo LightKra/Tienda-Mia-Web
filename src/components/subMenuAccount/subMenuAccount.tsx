@@ -12,7 +12,7 @@ const listMenu = [
 
 export const SubMenuAccount: React.FC = ()=>{
 
-    const handlerClick = ()=>{
+    const handleClick = ()=>{
 
     }
 
@@ -25,7 +25,7 @@ export const SubMenuAccount: React.FC = ()=>{
                         if(index === 0){
                             return(
                                 <NavLink key={item.name} to={item.link}>
-                                    <ButtonRed textButton={item.name} handlerClick={handlerClick}/>
+                                    <ButtonRed textButton={item.name} onClick={handleClick}/>
                                 </NavLink>
                             )
                         }else{

@@ -1,0 +1,15 @@
+.slider-brands > .swiper-button-prev {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0px;
+}
+.slider-brands > .swiper-button-next{
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0px;
+}
+.slider-brands > .swiper-button-prev::after,
+.slider-brands > .swiper-button-next::after{
+    color: var(--gray-500);
+    font-size: 20px;
+}

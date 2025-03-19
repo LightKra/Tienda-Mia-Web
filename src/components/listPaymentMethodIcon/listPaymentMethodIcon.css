@@ -1,0 +1,10 @@
+.list-payment-method-icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.list-payment-method-icon > img{
+    height: 35px;
+    width: 30px;
+    object-fit: contain;
+}

@@ -1,0 +1,27 @@
+.label{
+    display: inline-block;
+}
+.label-border-normal{
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+.label-border-rounded{
+    padding: 5px 5px;
+    border-radius: 45%;
+}
+.label-background-red{
+    background-color: var(--primary-color);
+}
+.label-background-green{
+    background-color: var(--green-50);
+}
+.label-text{
+    margin: 0px;
+    font-size: 0.7rem;
+}
+.label-text-white{
+    color: var(--text-color);
+}
+.label-text-green{
+    color: var(--green-400);
+}
