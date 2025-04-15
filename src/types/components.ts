@@ -9,7 +9,8 @@ export type ButtonRedProps = {
     textButton: string,
     size?: Size,
     Icon?: IconType,
-    backgroundColor?: 'red',
+    backgroundColor?: 'red' | 'white',
+    border?: 'rounded' | 'square',
     onClick?: ()=>void,
     className?: string
 }

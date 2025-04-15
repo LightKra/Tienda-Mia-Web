@@ -8,7 +8,6 @@
     height: var(--button-height);
     padding: var(--button-padding);
     border: none;
-    border-radius: 3px;
     color: var(--text-color);
     cursor: pointer;
     transition: all 0.3s ease;
@@ -30,9 +29,33 @@
     --button-height: auto;
     --button-padding: 13px 10px;
 }
+.button-auto{
+    --button-width: auto;
+    --button-height: auto;
+    --button-padding: 0px 10px
+}
 .button-red{
     --button-background-color: var(--primary-color);
 }
 .button-red-hover{
     --button-background-color-hover: var(--red-200);
+}
+
+.button-white{
+    --button-background-color: var(--gray-300);
+}
+
+.button-white-hover{
+    --button-background-color-hover: var(--gray-500);
+}
+
+.button-border{
+    border-radius: var(--button-border-radius);
+}
+
+.button-border-rounded{
+    --button-border-radius: 40px;
+}
+.button-border-square{  
+    --button-border-radius: 3px;
 }

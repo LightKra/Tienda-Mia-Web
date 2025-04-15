@@ -24,7 +24,7 @@ export const Home = ()=>{
     },[]);
 
     return(
-        <div className="main-home-container">  
+        <div className="container main-home-container ">  
             <section className="home-swiper-container">
                 <Slider listImages={portadas}/>
             </section>

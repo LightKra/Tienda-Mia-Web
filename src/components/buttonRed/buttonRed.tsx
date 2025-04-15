@@ -6,7 +6,8 @@ export const ButtonRed: React.FC<ButtonRedProps> = ({
     textButton,
     size='medium',
     Icon,
-    backgroundColor='red', 
+    backgroundColor='red',
+    border='square',
     onClick=()=>{}, 
     className=''
 }) =>{
@@ -16,7 +17,9 @@ export const ButtonRed: React.FC<ButtonRedProps> = ({
             `button 
             button-${backgroundColor} 
             button-${backgroundColor}-hover
-            button-${size} 
+            button-${size}
+            button-border
+            button-border-${border}
             ${className}`
         } 
             onClick={onClick}

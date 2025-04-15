@@ -3,7 +3,7 @@ import { RoutesApp } from "../../routes/routes";
 
 export const Main: React.FC = ()=>{
     return (
-        <main className='container'>
+        <main>
             <RoutesApp/>
         </main>
     )
